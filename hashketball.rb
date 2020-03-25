@@ -175,7 +175,6 @@ def big_shoe_rebounds
       if hash[:shoe] > big_shoe
         player_with_big_shoe = hash[:player_name]
         big_shoe = hash[:shoe]
-        binding.pry
       end
     end
     value[:players].each do |hash1|
